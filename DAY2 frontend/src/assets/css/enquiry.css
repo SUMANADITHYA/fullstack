@@ -1,0 +1,54 @@
+/* contactForm.css */
+
+.formm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formm form div {
+    margin-bottom: 10px;
+  }
+  
+  .formm form label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .formm form input[type="text"],
+  .formm form input[type="email"],
+  .formm form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formm form textarea {
+    height: 100px;
+  }
+  
+  .formm form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #070707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* .formm form button[type="submit"]:hover {
+    background-color: #45a049;
+  } */
+  
+  .pp p {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 300;
+  }
