@@ -1,0 +1,110 @@
+.navbar-root {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    
+  }
+  .navbar-title {
+    flex: 0.2;
+    font-size: x-large;
+    font-style: inherit;
+    font-family: fantasy;
+    color: white;
+
+  }
+  .navbar-app-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-toolbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .navbar-links {
+    margin-right: auto;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search-icon-wrapper {
+    margin-right: 10px;
+  }
+  
+  .navbar-search-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #FFA500; /* Change color on hover */
+  }
+  .navbar-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .navbar-dropdown-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Display content on the right */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .navbar-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-arrow {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    cursor: pointer;
+  }
+  
