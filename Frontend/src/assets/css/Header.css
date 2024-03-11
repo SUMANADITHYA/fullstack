@@ -1,0 +1,32 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Adjust background color as needed */
+  }
+  
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .navbar-brand:hover {
+    color: #ccc; /* Adjust hover color as needed */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ccc; /* Adjust hover color as needed */
+  }
+  
+  .navbar-toggler {
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .navbar-toggler:hover {
+    color: #ccc; /* Adjust hover color as needed */
+  }
+  

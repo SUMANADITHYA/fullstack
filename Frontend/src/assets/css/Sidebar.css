@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+#nav-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  #nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #nav-title {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  #nav-content {
+    margin-top: 10px;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-button i {
+    margin-right: 5px;
+  }
+  
+  #nav-footer-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #nav-footer-avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  #nav-footer-title {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #nav-footer-subtitle {
+    color: #aaa;
+  }
+  
